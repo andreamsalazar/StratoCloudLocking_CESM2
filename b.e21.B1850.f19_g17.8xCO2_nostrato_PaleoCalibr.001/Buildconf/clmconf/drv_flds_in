@@ -1,0 +1,14 @@
+&drydep_inparm
+/
+&megan_emis_nl
+/
+&fire_emis_nl
+/
+&carma_inparm
+/
+!#--------------------------------------------------------------------------------------------------------------------------
+!# drv_flds_in:: Comment:
+!# This namelist was created using the following command-line:
+!#     /glade/work/asalazar/derecho_cesm2/components/clm/bld/CLM build-namelist -cimeroot /glade/work/asalazar/derecho_cesm2/cime/scripts/Tools/../.. -infile /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_nostrato_PaleoCalibr.001/Buildconf/clmconf/namelist -csmdata /glade/campaign/cesm/cesmdata/inputdata -inputdata /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_nostrato_PaleoCalibr.001/Buildconf/clm.input_data_list -ignore_ic_year -namelist &clm_inparm  start_ymd=00010101 /  -no-megan -use_case 1850_control -res 1.9x2.5 -clm_start_type startup -envxml_dir /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_nostrato_PaleoCalibr.001 -l_ncpl 48 -lnd_frac /glade/campaign/cesm/cesmdata/inputdata/share/domains/domain.lnd.fv1.9x2.5_gx1v7.181205.nc -glc_nec 10 -co2_ppmv 284.7 -co2_type diagnostic -config /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_nostrato_PaleoCalibr.001/Buildconf/clmconf/config_cache.xml -bgc bgc -crop -clm_accelerated_spinup off -lnd_tuning_mode clm5_0_cam6.0 -mask gx1v7
+!# For help on options use: /glade/work/asalazar/derecho_cesm2/components/clm/bld/CLM build-namelist -help
+!#--------------------------------------------------------------------------------------------------------------------------

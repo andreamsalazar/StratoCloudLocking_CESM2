@@ -1,0 +1,5 @@
+./xmlchange GET_REFCASE=TRUE
+./xmlchange RUN_REFDATE=
+./xmlchange RUN_REFCASE=
+./xmlchange RUN_REFDIR=
+./xmlchange CONTINUE_RUN=TRUE

@@ -1,0 +1,29 @@
+###!/bin/bash
+
+#PBS -N iomb_diagnostics
+#PBS -q regular
+#PBS -l select=1:ncpus=8:mpiprocs=8
+#PBS -l walltime=00:30:00
+#PBS -A None
+
+
+##########
+##
+## See https://github.com/NCAR/CESM_postprocessing/wiki for details
+## regarding settings for optimal performance for CESM postprocessing tools.
+##
+##########
+
+
+today="$(date '+%Y%m%d-%H%M%S')"
+log_filename=/glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.PI_stratolocked.001/postprocess/logs/iomb_diagnostics.log.$today
+
+module load singularity/3.7.2
+module load impi
+
+
+{% for env in imb_env_vars %}
+{{ env }}
+{% endfor %}
+mpirun {{ imb_exe }} {{ imb_options }} >> ${log_filename} 2>&1
+

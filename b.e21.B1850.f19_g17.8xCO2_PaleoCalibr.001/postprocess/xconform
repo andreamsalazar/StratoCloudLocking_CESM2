@@ -1,0 +1,39 @@
+#! /usr/bin/env bash
+##########
+##
+## See https://github.com/NCAR/CESM_postprocessing/wiki for details
+## regarding settings for optimal performance for CESM postprocessing tools.
+##
+##########
+
+#!/bin/bash
+
+#PBS -N xconform
+#PBS -q regular
+#PBS -l select=1:ncpus=36:mpiprocs=36
+#PBS -l walltime=12:00:00
+#PBS -A None
+
+
+if [ ! -e /opt/ncar/cesm_postprocessing/cesm-env2/bin ]; then
+    echo "*************************************************************************************"
+    echo "CESM xconform exiting due to non-existant python virtual environment in"
+    echo "    /opt/ncar/cesm_postprocessing/cesm-env2/bin"
+    echo "You must first run:"
+    echo "$SRCROOT/postprocessing/create_python_env -machine [machine]"
+    echo "*************************************************************************************"
+    exit
+fi
+
+
+
+source /opt/ncar/cesm_postprocessing/cesm-env2/bin/activate
+
+
+
+
+
+today="$(date '+%Y%m%d-%H%M%S')"
+
+mpirun cesm_conform_generator.py --debug 0  --caseroot /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001/postprocess >> /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001/postprocess/logs/xconform.log.$today 2>&1
+

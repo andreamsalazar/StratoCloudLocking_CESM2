@@ -1,0 +1,52 @@
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `module'
+/glade/u/home/asalazar/.bashrc: line 2: module: command not found
+Generating namelists for /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001
+Creating component namelists
+   Calling /glade/work/asalazar/derecho_cesm2/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001/Buildconf/camconf/atm_in file2 /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001/run/atm_in 
+   Calling /glade/work/asalazar/derecho_cesm2/components/clm//cime_config/buildnml
+   Calling /glade/work/asalazar/derecho_cesm2/components/cice//cime_config/buildnml
+   Calling /glade/work/asalazar/derecho_cesm2/components/pop//cime_config/buildnml
+     /bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+   Calling /glade/work/asalazar/derecho_cesm2/components/mosart//cime_config/buildnml
+   Running /glade/work/asalazar/derecho_cesm2/components/cism//cime_config/buildnml 
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+   Calling /glade/work/asalazar/derecho_cesm2/components/ww3//cime_config/buildnml
+   Calling /glade/work/asalazar/derecho_cesm2/cime/src/components/stub_comps/sesp/cime_config/buildnml
+   Calling /glade/work/asalazar/derecho_cesm2/cime/src/drivers/mct/cime_config/buildnml
+Finished creating component namelists
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/campaign/cesm/cesmdata/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+2023-11-30 11:42:23 MODEL EXECUTION BEGINS HERE
+run command is mpiexec  --label  -n 1280 /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001/bld/cesm.exe  >> cesm.log.$LID 2>&1  
+2023-11-30 14:47:26 MODEL EXECUTION HAS FINISHED
+check for resubmit
+dout_s True 
+mach derecho 
+resubmit_num 19

@@ -1,0 +1,14 @@
+&comp_inparm 
+
+ ncdata = 'b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.002.cam.i.1101-01-01-00000.nc'
+ dtime = 1800
+ start_ymd = 00010101
+micro_mg_num_steps  = 8
+
+dust_emis_fact      = 0.55
+
+clubb_gamma_coef    = 0.275D0
+
+co2vmr              = 2276.8e-6
+
+/ 

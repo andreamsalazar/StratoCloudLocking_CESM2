@@ -1,0 +1,4 @@
+micro_mg_num_steps  = 8
+dust_emis_fact      = 0.55
+clubb_gamma_coef    = 0.275D0
+

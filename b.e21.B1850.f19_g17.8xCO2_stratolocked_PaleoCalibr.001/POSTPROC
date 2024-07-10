@@ -1,0 +1,7 @@
+module use /glade/work/bdobbins/Software/Modules
+
+module load cesm_postprocessing_derecho
+
+create_postprocess -caseroot=`pwd`
+
+cd postprocess/

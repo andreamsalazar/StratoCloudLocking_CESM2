@@ -1,0 +1,14 @@
+!----------------------------------------------------------------------------------
+! Users should add all user specific namelist changes below in the form of 
+!   namelist_var = new_namelist_value 
+! Note - that it does not matter what namelist group the namelist_var belongs to
+!----------------------------------------------------------------------------------
+
+!!Added at year 51 on May 5, 2021
+!!See also: https://ncar.github.io/CICE/users_guide/ice_troubleshoot.html
+!!CMIP6-abrupt4xCO2-2deg.001 used a higher dt_count = 48, which I may try later
+! ndtd = 2
+
+!! This did not help. Model crashed at year 58 (vs 55).
+!! Try to increase dt_count to 48 instead.
+ 

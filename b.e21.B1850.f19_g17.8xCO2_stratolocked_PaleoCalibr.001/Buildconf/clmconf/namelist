@@ -1,0 +1,16 @@
+&comp_inparm 
+
+finidat = 'b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.002.clm2.r.1101-01-01-00000.nc'
+use_init_interp     = .true.
+
+glacier_region_behavior = 'single_at_atm_topo', 'virtual', 'virtual', 'virtual'
+
+use_c13 = .true.
+
+use_c14 = .true.
+
+use_c13_timeseries = .true.
+
+use_c14_bombspike = .true.
+
+/ 

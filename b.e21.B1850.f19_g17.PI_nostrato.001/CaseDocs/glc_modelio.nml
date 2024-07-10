@@ -1,0 +1,13 @@
+&modelio
+  diri = "/glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_nostrato.001/bld/glc"
+  diro = "/glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_nostrato.001/run"
+  logfile = "glc.log.2724752.desched1.240104-022358"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 1
+  pio_stride = 128
+  pio_typename = "pnetcdf"
+/

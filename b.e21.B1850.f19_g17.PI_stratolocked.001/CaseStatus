@@ -1,0 +1,552 @@
+2023-12-03 12:50:59: setup.clean starting 
+ ---------------------------------------------------
+2023-12-03 12:50:59: setup.clean success 
+ ---------------------------------------------------
+2023-12-03 12:51:00: xmlchange success <command> ./xmlchange NTASKS_ATM=-8  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:00: xmlchange success <command> ./xmlchange NTHRDS_ATM=1  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:00: xmlchange success <command> ./xmlchange ROOTPE_ATM=0  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:01: xmlchange success <command> ./xmlchange NTASKS_CPL=-8  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:01: xmlchange success <command> ./xmlchange NTHRDS_CPL=1  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:01: xmlchange success <command> ./xmlchange ROOTPE_CPL=0  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:02: xmlchange success <command> ./xmlchange NTASKS_GLC=64  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:02: xmlchange success <command> ./xmlchange NTHRDS_GLC=1  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:02: xmlchange success <command> ./xmlchange ROOTPE_GLC=0  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:03: xmlchange success <command> ./xmlchange NTASKS_ICE=192  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:03: xmlchange success <command> ./xmlchange NTHRDS_ICE=1  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:03: xmlchange success <command> ./xmlchange ROOTPE_ICE=64  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:04: xmlchange success <command> ./xmlchange NTASKS_LND=768  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:04: xmlchange success <command> ./xmlchange NTHRDS_LND=1  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:04: xmlchange success <command> ./xmlchange ROOTPE_LND=256  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:05: xmlchange success <command> ./xmlchange NTASKS_OCN=256  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:05: xmlchange success <command> ./xmlchange NTHRDS_OCN=1  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:05: xmlchange success <command> ./xmlchange ROOTPE_OCN=-8  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:06: xmlchange success <command> ./xmlchange NTASKS_ROF=64  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:06: xmlchange success <command> ./xmlchange NTHRDS_ROF=1  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:06: xmlchange success <command> ./xmlchange ROOTPE_ROF=0  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:07: xmlchange success <command> ./xmlchange NTASKS_WAV=64  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:07: xmlchange success <command> ./xmlchange NTHRDS_WAV=1  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:07: xmlchange success <command> ./xmlchange ROOTPE_WAV=0  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:07: case.setup starting 
+ ---------------------------------------------------
+2023-12-03 12:51:10: case.setup success 
+ ---------------------------------------------------
+2023-12-03 12:51:10: xmlchange success <command> ./xmlchange EXEROOT=/glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/bld  </command>
+ ---------------------------------------------------
+2023-12-03 12:51:24: case.build starting 
+ ---------------------------------------------------
+CESM version is release-cesm2.1.4
+Processing externals description file : Externals.cfg (/glade/work/asalazar/derecho_cesm2)
+Processing externals description file : Externals_CAM.cfg (/glade/work/asalazar/derecho_cesm2/components/cam)
+Processing externals description file : Externals_CISM.cfg (/glade/work/asalazar/derecho_cesm2/components/cism)
+Processing externals description file : Externals_CLM.cfg (/glade/work/asalazar/derecho_cesm2/components/clm)
+Processing externals description file : Externals_POP.cfg (/glade/work/asalazar/derecho_cesm2/components/pop)
+Checking local status of required & optional components: cam, chem_proc, carma, clubb, cosp2, cice, cime, cism, source_cism, clm, fates, ptclm, mosart, pop, cvmix, marbl, rtm, ww3, 
+    ./cime
+        clean sandbox, on cime5.6.44
+    ./components/cam
+        clean sandbox, on cam_cesm2_1_rel_r58
+    ./components/cam/chem_proc
+        clean sandbox, on tools/proc_atm/chem_proc/release_tags/chem_proc5_0_03_rel
+    ./components/cam/src/physics/carma/base
+        clean sandbox, on carma/release_tags/carma3_49_rel
+    ./components/cam/src/physics/clubb
+        clean sandbox, on vendor_clubb_r8099_n03
+    ./components/cam/src/physics/cosp2/src
+        clean sandbox, on CFMIP/COSPv2.0/tags/v2.1.4cesm/src
+    ./components/cice
+        clean sandbox, on cice5_cesm2_1_1_20190321
+    ./components/cism
+        clean sandbox, on cism-release-cesm2.1.2_02
+ M  ./components/cism/source_cism
+        modified sandbox, on release-cism2.1.03
+    ./components/clm
+        clean sandbox, on release-clm5.0.35
+    ./components/clm/src/fates
+        clean sandbox, on sci.1.30.0_api.8.0.0
+    ./components/clm/tools/PTCLM
+        clean sandbox, on PTCLM2_20200902
+    ./components/mosart
+        clean sandbox, on release-cesm2.0.04
+    ./components/pop
+        clean sandbox, on pop2_cesm2_1_rel_n14
+    ./components/pop/externals/CVMix
+        clean sandbox, on v0.93-beta
+    ./components/pop/externals/MARBL
+        clean sandbox, on cesm2.1-n00
+    ./components/rtm
+        clean sandbox, on release-cesm2.0.04
+    ./components/ww3
+        clean sandbox, on ww3_181001
+2023-12-03 12:59:52: case.build success 
+ ---------------------------------------------------
+2023-12-03 12:59:55: xmlchange success <command> ./xmlchange --id RUN_TYPE --val hybrid  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:55: xmlchange success <command> ./xmlchange --id RUN_REFDIR --val /glade/derecho/scratch/asalazar/4xco2_PaleoCalib_restart  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:55: xmlchange success <command> ./xmlchange --id RUN_REFCASE --val b.e21.B1850.f19_g17.PaleoCalibr.PI.02  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:56: xmlchange success <command> ./xmlchange --id RUN_REFDATE --val 0501-01-01  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:56: xmlchange success <command> ./xmlchange --id RUN_STARTDATE --val 0001-01-01  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:56: xmlchange success <command> ./xmlchange RUNDIR=/glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/run  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:57: xmlchange success <command> ./xmlchange DOUT_S=TRUE  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:57: xmlchange success <command> ./xmlchange DOUT_S_ROOT=/glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:57: xmlchange success <command> ./xmlchange STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:57: xmlchange success <command> ./xmlchange STOP_N=5  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:58: xmlchange success <command> ./xmlchange GET_REFCASE=TRUE  </command>
+ ---------------------------------------------------
+2023-12-03 12:59:58: xmlchange success <command> ./xmlchange RESUBMIT=20  </command>
+ ---------------------------------------------------
+2023-12-03 13:00:00: xmlchange success <command> ./xmlchange CONTINUE_RUN=FALSE  </command>
+ ---------------------------------------------------
+2023-12-03 13:00:38: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00  </command>
+ ---------------------------------------------------
+2023-12-03 13:00:45: case.submit starting 
+ ---------------------------------------------------
+2023-12-03 13:00:50: case.submit error 
+
+ ---------------------------------------------------
+2023-12-03 13:02:54: xmlchange success <command> ./xmlchange RUN_REFDIR=/glade/derecho/scratch/asalazar/piControl_PaleoCalib_restart  </command>
+ ---------------------------------------------------
+2023-12-03 13:02:58: case.submit starting 
+ ---------------------------------------------------
+2023-12-03 13:03:08: case.submit success case.run:2608287.desched1, case.st_archive:2608288.desched1
+ ---------------------------------------------------
+2023-12-03 13:03:26: case.run starting 
+ ---------------------------------------------------
+2023-12-03 13:03:41: model execution starting 
+ ---------------------------------------------------
+2023-12-03 13:05:04: model execution success 
+ ---------------------------------------------------
+2023-12-03 13:05:04: case.run error 
+ERROR: RUN FAIL: Command 'mpiexec  --label  -n 1280 /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/run/cesm.log.2608287.desched1.231203-130326
+ ---------------------------------------------------
+2023-12-03 13:12:13: case.submit starting 
+ ---------------------------------------------------
+2023-12-03 13:12:24: case.submit success case.run:2608292.desched1, case.st_archive:2608293.desched1
+ ---------------------------------------------------
+2023-12-03 13:12:34: case.run starting 
+ ---------------------------------------------------
+2023-12-03 13:12:44: model execution starting 
+ ---------------------------------------------------
+2023-12-03 13:13:11: model execution success 
+ ---------------------------------------------------
+2023-12-03 13:13:11: case.run error 
+ERROR: RUN FAIL: Command 'mpiexec  --label  -n 1280 /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/run/cesm.log.2608292.desched1.231203-131234
+ ---------------------------------------------------
+2023-12-03 13:14:01: case.submit starting 
+ ---------------------------------------------------
+2023-12-03 13:14:11: case.submit success case.run:2608296.desched1, case.st_archive:2608297.desched1
+ ---------------------------------------------------
+2023-12-03 13:14:22: case.run starting 
+ ---------------------------------------------------
+2023-12-03 13:14:30: model execution starting 
+ ---------------------------------------------------
+2023-12-03 16:28:49: model execution success 
+ ---------------------------------------------------
+2023-12-03 16:28:49: case.run success 
+ ---------------------------------------------------
+2023-12-03 16:29:14: st_archive starting 
+ ---------------------------------------------------
+2023-12-03 16:29:25: st_archive success 
+ ---------------------------------------------------
+2023-12-03 16:29:25: case.submit starting 
+ ---------------------------------------------------
+2023-12-03 16:29:26: case.submit success case.run:2608496.desched1, case.st_archive:2608497.desched1
+ ---------------------------------------------------
+2023-12-03 16:29:42: case.run starting 
+ ---------------------------------------------------
+2023-12-03 16:29:53: model execution starting 
+ ---------------------------------------------------
+2023-12-03 19:49:02: model execution success 
+ ---------------------------------------------------
+2023-12-03 19:49:02: case.run success 
+ ---------------------------------------------------
+2023-12-03 19:49:22: st_archive starting 
+ ---------------------------------------------------
+2023-12-03 19:49:36: st_archive success 
+ ---------------------------------------------------
+2023-12-03 19:49:36: case.submit starting 
+ ---------------------------------------------------
+2023-12-03 19:49:36: case.submit success case.run:2608727.desched1, case.st_archive:2608728.desched1
+ ---------------------------------------------------
+2023-12-03 19:49:51: case.run starting 
+ ---------------------------------------------------
+2023-12-03 19:49:59: model execution starting 
+ ---------------------------------------------------
+2023-12-03 23:03:56: model execution success 
+ ---------------------------------------------------
+2023-12-03 23:03:57: case.run success 
+ ---------------------------------------------------
+2023-12-03 23:04:14: st_archive starting 
+ ---------------------------------------------------
+2023-12-03 23:04:26: st_archive success 
+ ---------------------------------------------------
+2023-12-03 23:04:26: case.submit starting 
+ ---------------------------------------------------
+2023-12-03 23:04:26: case.submit success case.run:2609020.desched1, case.st_archive:2609021.desched1
+ ---------------------------------------------------
+2023-12-03 23:04:40: case.run starting 
+ ---------------------------------------------------
+2023-12-03 23:04:49: model execution starting 
+ ---------------------------------------------------
+2023-12-04 02:21:29: model execution success 
+ ---------------------------------------------------
+2023-12-04 02:21:30: case.run success 
+ ---------------------------------------------------
+2023-12-04 02:21:47: st_archive starting 
+ ---------------------------------------------------
+2023-12-04 02:22:04: st_archive success 
+ ---------------------------------------------------
+2023-12-04 02:22:04: case.submit starting 
+ ---------------------------------------------------
+2023-12-04 02:22:05: case.submit success case.run:2609196.desched1, case.st_archive:2609197.desched1
+ ---------------------------------------------------
+2023-12-04 02:22:18: case.run starting 
+ ---------------------------------------------------
+2023-12-04 02:22:30: model execution starting 
+ ---------------------------------------------------
+2023-12-04 05:36:05: model execution success 
+ ---------------------------------------------------
+2023-12-04 05:36:05: case.run success 
+ ---------------------------------------------------
+2023-12-04 05:36:26: st_archive starting 
+ ---------------------------------------------------
+2023-12-04 05:36:46: st_archive success 
+ ---------------------------------------------------
+2023-12-04 05:36:46: case.submit starting 
+ ---------------------------------------------------
+2023-12-04 05:36:47: case.submit success case.run:2609470.desched1, case.st_archive:2609471.desched1
+ ---------------------------------------------------
+2023-12-04 05:37:01: case.run starting 
+ ---------------------------------------------------
+2023-12-04 05:37:15: model execution starting 
+ ---------------------------------------------------
+2023-12-04 08:53:03: model execution success 
+ ---------------------------------------------------
+2023-12-04 08:53:04: case.run success 
+ ---------------------------------------------------
+2023-12-04 08:53:22: st_archive starting 
+ ---------------------------------------------------
+2023-12-04 08:53:33: st_archive success 
+ ---------------------------------------------------
+2023-12-04 08:53:33: case.submit starting 
+ ---------------------------------------------------
+2023-12-04 08:53:33: case.submit success case.run:2609674.desched1, case.st_archive:2609675.desched1
+ ---------------------------------------------------
+2023-12-04 08:53:54: case.run starting 
+ ---------------------------------------------------
+2023-12-04 08:54:04: model execution starting 
+ ---------------------------------------------------
+2023-12-04 12:07:12: model execution success 
+ ---------------------------------------------------
+2023-12-04 12:07:13: case.run success 
+ ---------------------------------------------------
+2023-12-04 12:07:30: st_archive starting 
+ ---------------------------------------------------
+2023-12-04 12:07:41: st_archive success 
+ ---------------------------------------------------
+2023-12-04 12:07:41: case.submit starting 
+ ---------------------------------------------------
+2023-12-04 12:07:43: case.submit success case.run:2610153.desched1, case.st_archive:2610154.desched1
+ ---------------------------------------------------
+2023-12-04 12:08:01: case.run starting 
+ ---------------------------------------------------
+2023-12-04 12:08:16: model execution starting 
+ ---------------------------------------------------
+2023-12-04 15:21:58: model execution success 
+ ---------------------------------------------------
+2023-12-04 15:21:59: case.run success 
+ ---------------------------------------------------
+2023-12-04 15:22:18: st_archive starting 
+ ---------------------------------------------------
+2023-12-04 15:22:29: st_archive success 
+ ---------------------------------------------------
+2023-12-04 15:22:29: case.submit starting 
+ ---------------------------------------------------
+2023-12-04 15:22:29: case.submit success case.run:2611233.desched1, case.st_archive:2611234.desched1
+ ---------------------------------------------------
+2023-12-04 15:22:45: case.run starting 
+ ---------------------------------------------------
+2023-12-04 15:22:56: model execution starting 
+ ---------------------------------------------------
+2023-12-04 18:32:46: model execution success 
+ ---------------------------------------------------
+2023-12-04 18:32:53: case.run success 
+ ---------------------------------------------------
+2023-12-04 18:33:12: st_archive starting 
+ ---------------------------------------------------
+2023-12-04 18:33:23: st_archive success 
+ ---------------------------------------------------
+2023-12-04 18:33:23: case.submit starting 
+ ---------------------------------------------------
+2023-12-04 18:33:26: case.submit success case.run:2611674.desched1, case.st_archive:2611675.desched1
+ ---------------------------------------------------
+2023-12-04 18:33:57: case.run starting 
+ ---------------------------------------------------
+2023-12-04 18:34:45: model execution starting 
+ ---------------------------------------------------
+2023-12-04 21:49:51: model execution success 
+ ---------------------------------------------------
+2023-12-04 21:49:52: case.run success 
+ ---------------------------------------------------
+2023-12-04 21:50:21: st_archive starting 
+ ---------------------------------------------------
+2023-12-04 21:50:35: st_archive success 
+ ---------------------------------------------------
+2023-12-04 21:50:35: case.submit starting 
+ ---------------------------------------------------
+2023-12-04 21:50:36: case.submit success case.run:2612034.desched1, case.st_archive:2612035.desched1
+ ---------------------------------------------------
+2023-12-04 21:50:49: case.run starting 
+ ---------------------------------------------------
+2023-12-04 21:51:01: model execution starting 
+ ---------------------------------------------------
+2023-12-05 01:06:17: model execution success 
+ ---------------------------------------------------
+2023-12-05 01:06:25: case.run success 
+ ---------------------------------------------------
+2023-12-05 01:07:23: st_archive starting 
+ ---------------------------------------------------
+2023-12-05 01:07:49: st_archive success 
+ ---------------------------------------------------
+2023-12-05 01:07:49: case.submit starting 
+ ---------------------------------------------------
+2023-12-05 01:08:02: case.submit success case.run:2612369.desched1, case.st_archive:2612370.desched1
+ ---------------------------------------------------
+2023-12-05 01:08:21: case.run starting 
+ ---------------------------------------------------
+2023-12-05 01:09:15: model execution starting 
+ ---------------------------------------------------
+2023-12-05 04:23:11: model execution success 
+ ---------------------------------------------------
+2023-12-05 04:23:11: case.run success 
+ ---------------------------------------------------
+2023-12-05 04:23:31: st_archive starting 
+ ---------------------------------------------------
+2023-12-05 04:23:43: st_archive success 
+ ---------------------------------------------------
+2023-12-05 04:23:43: case.submit starting 
+ ---------------------------------------------------
+2023-12-05 04:23:43: case.submit success case.run:2612523.desched1, case.st_archive:2612524.desched1
+ ---------------------------------------------------
+2023-12-05 04:23:57: case.run starting 
+ ---------------------------------------------------
+2023-12-05 04:24:06: model execution starting 
+ ---------------------------------------------------
+2023-12-05 07:37:09: model execution success 
+ ---------------------------------------------------
+2023-12-05 07:37:09: case.run success 
+ ---------------------------------------------------
+2023-12-05 07:37:27: st_archive starting 
+ ---------------------------------------------------
+2023-12-05 07:37:38: st_archive success 
+ ---------------------------------------------------
+2023-12-05 07:37:38: case.submit starting 
+ ---------------------------------------------------
+2023-12-05 07:37:39: case.submit success case.run:2612640.desched1, case.st_archive:2612641.desched1
+ ---------------------------------------------------
+2023-12-05 07:37:53: case.run starting 
+ ---------------------------------------------------
+2023-12-05 07:38:03: model execution starting 
+ ---------------------------------------------------
+2023-12-05 10:52:11: model execution success 
+ ---------------------------------------------------
+2023-12-05 10:52:11: case.run success 
+ ---------------------------------------------------
+2023-12-05 10:52:28: st_archive starting 
+ ---------------------------------------------------
+2023-12-05 10:52:40: st_archive success 
+ ---------------------------------------------------
+2023-12-05 10:52:40: case.submit starting 
+ ---------------------------------------------------
+2023-12-05 10:52:40: case.submit success case.run:2613232.desched1, case.st_archive:2613233.desched1
+ ---------------------------------------------------
+2023-12-05 10:52:55: case.run starting 
+ ---------------------------------------------------
+2023-12-05 10:53:06: model execution starting 
+ ---------------------------------------------------
+2023-12-05 14:06:41: model execution success 
+ ---------------------------------------------------
+2023-12-05 14:06:41: case.run success 
+ ---------------------------------------------------
+2023-12-05 14:07:04: st_archive starting 
+ ---------------------------------------------------
+2023-12-05 14:07:15: st_archive success 
+ ---------------------------------------------------
+2023-12-05 14:07:15: case.submit starting 
+ ---------------------------------------------------
+2023-12-05 14:07:17: case.submit success case.run:2615028.desched1, case.st_archive:2615029.desched1
+ ---------------------------------------------------
+2023-12-05 14:07:40: case.run starting 
+ ---------------------------------------------------
+2023-12-05 14:08:34: model execution starting 
+ ---------------------------------------------------
+2023-12-05 17:23:01: model execution success 
+ ---------------------------------------------------
+2023-12-05 17:23:02: case.run success 
+ ---------------------------------------------------
+2023-12-05 17:23:22: st_archive starting 
+ ---------------------------------------------------
+2023-12-05 17:23:34: st_archive success 
+ ---------------------------------------------------
+2023-12-05 17:23:34: case.submit starting 
+ ---------------------------------------------------
+2023-12-05 17:23:35: case.submit success case.run:2616518.desched1, case.st_archive:2616519.desched1
+ ---------------------------------------------------
+2023-12-05 17:23:52: case.run starting 
+ ---------------------------------------------------
+2023-12-05 17:24:04: model execution starting 
+ ---------------------------------------------------
+2023-12-05 20:37:13: model execution success 
+ ---------------------------------------------------
+2023-12-05 20:37:16: case.run success 
+ ---------------------------------------------------
+2023-12-05 20:37:45: st_archive starting 
+ ---------------------------------------------------
+2023-12-05 20:37:57: st_archive success 
+ ---------------------------------------------------
+2023-12-05 20:37:57: case.submit starting 
+ ---------------------------------------------------
+2023-12-05 20:37:59: case.submit success case.run:2617594.desched1, case.st_archive:2617595.desched1
+ ---------------------------------------------------
+2023-12-05 20:38:27: case.run starting 
+ ---------------------------------------------------
+2023-12-05 20:39:01: model execution starting 
+ ---------------------------------------------------
+2023-12-05 23:54:04: model execution success 
+ ---------------------------------------------------
+2023-12-05 23:54:04: case.run success 
+ ---------------------------------------------------
+2023-12-05 23:54:25: st_archive starting 
+ ---------------------------------------------------
+2023-12-05 23:54:36: st_archive success 
+ ---------------------------------------------------
+2023-12-05 23:54:36: case.submit starting 
+ ---------------------------------------------------
+2023-12-05 23:54:36: case.submit success case.run:2617937.desched1, case.st_archive:2617938.desched1
+ ---------------------------------------------------
+2023-12-05 23:54:52: case.run starting 
+ ---------------------------------------------------
+2023-12-05 23:55:04: model execution starting 
+ ---------------------------------------------------
+2023-12-06 03:09:54: model execution success 
+ ---------------------------------------------------
+2023-12-06 03:09:56: case.run success 
+ ---------------------------------------------------
+2023-12-06 03:10:16: st_archive starting 
+ ---------------------------------------------------
+2023-12-06 03:10:27: st_archive success 
+ ---------------------------------------------------
+2023-12-06 03:10:27: case.submit starting 
+ ---------------------------------------------------
+2023-12-06 03:10:29: case.submit success case.run:2618078.desched1, case.st_archive:2618079.desched1
+ ---------------------------------------------------
+2023-12-06 03:10:46: case.run starting 
+ ---------------------------------------------------
+2023-12-06 03:11:05: model execution starting 
+ ---------------------------------------------------
+2023-12-06 06:24:24: model execution success 
+ ---------------------------------------------------
+2023-12-06 06:24:24: case.run success 
+ ---------------------------------------------------
+2023-12-06 06:24:45: st_archive starting 
+ ---------------------------------------------------
+2023-12-06 06:24:57: st_archive success 
+ ---------------------------------------------------
+2023-12-06 06:24:57: case.submit starting 
+ ---------------------------------------------------
+2023-12-06 06:24:57: case.submit success case.run:2618174.desched1, case.st_archive:2618175.desched1
+ ---------------------------------------------------
+2023-12-06 06:25:12: case.run starting 
+ ---------------------------------------------------
+2023-12-06 06:25:23: model execution starting 
+ ---------------------------------------------------
+2023-12-06 09:39:18: model execution success 
+ ---------------------------------------------------
+2023-12-06 09:39:18: case.run success 
+ ---------------------------------------------------
+2023-12-06 09:39:38: st_archive starting 
+ ---------------------------------------------------
+2023-12-06 09:39:49: st_archive success 
+ ---------------------------------------------------
+2023-12-06 14:05:06: xmlchange success <command> ./xmlchange RESUBMIT=20  </command>
+ ---------------------------------------------------
+2023-12-06 14:05:14: xmlchange success <command> ./xmlchange CONTINUE_RUN=True  </command>
+ ---------------------------------------------------
+2023-12-06 14:05:18: case.submit starting 
+ ---------------------------------------------------
+2023-12-06 14:05:44: case.submit success case.run:2621625.desched1, case.st_archive:2621626.desched1
+ ---------------------------------------------------
+2023-12-06 14:05:59: case.run starting 
+ ---------------------------------------------------
+2023-12-06 14:06:10: model execution starting 
+ ---------------------------------------------------
+2023-12-06 17:19:41: model execution success 
+ ---------------------------------------------------
+2023-12-06 17:19:41: case.run success 
+ ---------------------------------------------------
+2023-12-06 17:19:57: st_archive starting 
+ ---------------------------------------------------
+2023-12-06 17:20:08: st_archive success 
+ ---------------------------------------------------
+2023-12-06 17:20:08: case.submit starting 
+ ---------------------------------------------------
+2023-12-06 17:20:09: case.submit success case.run:2622986.desched1, case.st_archive:2622987.desched1
+ ---------------------------------------------------
+2023-12-06 17:20:22: case.run starting 
+ ---------------------------------------------------
+2023-12-06 17:20:31: model execution starting 
+ ---------------------------------------------------
+2023-12-06 17:43:11: model execution success 
+ ---------------------------------------------------
+2023-12-06 17:43:11: case.run error 
+ERROR: RUN FAIL: Command 'mpiexec  --label  -n 1280 /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/run/cesm.log.2622986.desched1.231206-172022
+ ---------------------------------------------------
+2023-12-07 11:14:08: case.submit starting 
+ ---------------------------------------------------
+2023-12-07 11:14:23: case.submit success case.run:2626431.desched1, case.st_archive:2626432.desched1
+ ---------------------------------------------------
+2023-12-07 11:14:38: case.run starting 
+ ---------------------------------------------------
+2023-12-07 11:14:45: model execution starting 
+ ---------------------------------------------------
+2023-12-07 11:37:41: model execution success 
+ ---------------------------------------------------
+2023-12-07 11:37:41: case.run error 
+ERROR: RUN FAIL: Command 'mpiexec  --label  -n 1280 /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.PI_stratolocked.001/run/cesm.log.2626431.desched1.231207-111438
+ ---------------------------------------------------

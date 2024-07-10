@@ -1,0 +1,15 @@
+ebm_param_filename = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/EBMparm_HU20HL20_gx1v6.20170312.nc
+shf_filename = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/shf_mm_all_85-88_20010308.ieeer8
+chl_filename = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/chl_filled_20061230.ieeer8
+init_ts_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v7/ic/ts_WOA13v2_jan_ic_gx1v7_20170706.ieeer8
+sfwf_filename = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v7/forcing/sfwf_mm_WOA13v2_salx_flxio_gx1v7_20170706.ieeer8
+niw_energy_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/niw_gx1v6_20100915.ieeer8
+horiz_grid_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v7/grid/horiz_grid_20010402.ieeer8
+topography_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v7/grid/topography_20161215.ieeei4
+region_mask_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v7/grid/region_mask_20151008.ieeei4
+tidal_vars_file_polz = unknown_tidal_vars_file_polz
+tidal_energy_ts_files(3) = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/tidal_lunar_k1modul_nodalTOmonth.20141028.txt
+tidal_energy_ts_files(1) = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/tidal_lunar_m2modul_nodalTOmonth.20141028.txt
+tidal_energy_file = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/tidal_energy_gx1v6_20090205.ieeer8
+tidal_energy_ts_files(4) = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/tidal_lunar_o1modul_nodalTOmonth.20141028.txt
+tidal_energy_ts_files(2) = /glade/campaign/cesm/cesmdata/inputdata/ocn/pop/gx1v6/forcing/tidal_lunar_s2modul_nodalTOmonth.20141028.txt

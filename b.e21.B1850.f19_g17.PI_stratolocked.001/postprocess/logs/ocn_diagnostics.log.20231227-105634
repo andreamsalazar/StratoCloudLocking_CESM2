@@ -1,0 +1,96 @@
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)
+Traceback (most recent call last):
+  File "/opt/ncar/cesm_postprocessing/cesm-env2/bin/ocn_diags_generator.py", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/opt/ncar/cesm_postprocessing/diagnostics/diagnostics/ocn/ocn_diags_generator.py", line 58, in <module>
+    from diagnostics.ocn import ocn_diags_bc
+ImportError: cannot import name 'ocn_diags_bc' from 'diagnostics.ocn' (unknown location)

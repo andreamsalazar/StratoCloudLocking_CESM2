@@ -1,0 +1,13 @@
+&modelio
+  diri = "/glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.8xCO2_nostrato_PaleoCalibr.001/bld/esp"
+  diro = "/glade/derecho/scratch/asalazar/b.e21.B1850.f19_g17.8xCO2_nostrato_PaleoCalibr.001/run"
+  logfile = "esp.log.2987557.desched1.240201-151423"
+/
+&pio_inparm
+  pio_netcdf_format = ""
+  pio_numiotasks = -99
+  pio_rearranger = -99
+  pio_root = -99
+  pio_stride = -99
+  pio_typename = "nothing"
+/

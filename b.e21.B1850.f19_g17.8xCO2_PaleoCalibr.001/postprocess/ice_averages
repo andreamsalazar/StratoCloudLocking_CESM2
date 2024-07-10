@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#PBS -N ice_averages
+#PBS -q regular
+#PBS -l select=1:ncpus=36:mpiprocs=36
+#PBS -l walltime=01:00:00
+#PBS -A None
+
+
+##########
+##
+## See https://github.com/NCAR/CESM_postprocessing/wiki for details
+## regarding settings for optimal performance for CESM postprocessing tools.
+##
+##########
+
+
+today="$(date '+%Y%m%d-%H%M%S')"
+log_filename=/glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001/postprocess/logs/ice_averages.log.$today
+
+module load ncarenv/23.09
+module load intel
+module load intel-mpi
+module load apptainer
+
+
+mpirun singularity run -B /glade,/var /glade/work/bdobbins/Containers/CESM_Postprocessing/image /opt/ncar/cesm_postprocessing/cesm-env2/bin/ice_avg_generator.py  --caseroot /glade/u/home/asalazar/cesm2/cesm_caseroot/b.e21.B1850.f19_g17.8xCO2_PaleoCalibr.001/postprocess >> ${log_filename} 2>&1 
+
